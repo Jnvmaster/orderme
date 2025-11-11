@@ -1,0 +1,13 @@
+/* Make navbar fixed */
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;  /* enough priority, no need 9999 */
+}
+
+/* Add page padding so content doesn't hide behind navbar */
+body {
+  padding-top: 80px; /* adjust to your navbar height */
+}

@@ -1,0 +1,51 @@
+.my {
+  min-height: 400px;
+  background-Repeat: 'no-repeat';
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@media (max-width: 768px) {
+  .my {
+    min-height: 300;
+  }
+}
+
+.hovereffect:hover {
+  transform: scale(1.02);
+  box-shadow: 0 7px 15px rgba(0, 0, 0, 0.15);
+  transition: 0.3s ease-in-out;
+}
+
+/* --- Styling for new sections --- */
+
+.simple-steps-section .step-heading {
+  font-size: 1.3rem;
+  font-weight: bold;
+  color: #ffc107; /* Yellow to match your theme */
+}
+
+.simple-steps-section .step-text {
+  font-size: 0.95rem;
+  color: #ccc;
+  padding: 0 1rem;
+}
+
+.cta-section {
+  background-color: #ffc107; /* Bootstrap's warning/yellow color */
+}
+
+.cta-heading {
+  font-weight: bold;
+  font-size: 1.75rem;
+  margin-bottom: 1rem;
+  color: #212529; /* Dark text */
+}
+
+.cta-button {
+  font-weight: bold;
+  padding: 0.6rem 2rem;
+  border: none;
+}

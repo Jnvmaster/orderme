@@ -1,0 +1,32 @@
+.icon-fix{
+
+    position:relative; top:-2px;
+}
+
+.sidebar{
+    width: 300px;
+    height: 100vh;
+    position: fixed;
+    top:0;
+    left:0
+}   
+
+
+.list-group-item:hover{
+    background-color: black !important;
+    color: rgb(25, 183, 62) !important;
+
+}
+
+#page-content-wrapper.with-sidebar{
+
+    margin-left:300px;
+    transition: margin-left 0.5s ease ;
+}
+
+#page-content-wrapper.full-width{
+
+    margin-left:0px;
+     transition: margin-left 0.5s ease ;
+}
+
